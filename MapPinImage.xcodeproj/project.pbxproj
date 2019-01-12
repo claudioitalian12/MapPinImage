@@ -12,6 +12,8 @@
 		5DEC858621E9D66500C888DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DEC858421E9D66500C888DE /* Main.storyboard */; };
 		5DEC858821E9D66600C888DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DEC858721E9D66600C888DE /* Assets.xcassets */; };
 		5DEC858B21E9D66600C888DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DEC858921E9D66600C888DE /* LaunchScreen.storyboard */; };
+		5DEC859321E9D8FF00C888DE /* PinValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEC859221E9D8FF00C888DE /* PinValue.swift */; };
+		5DEC859521E9D9B900C888DE /* MyAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEC859421E9D9B900C888DE /* MyAnnotation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		5DEC858721E9D66600C888DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5DEC858A21E9D66600C888DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5DEC858C21E9D66600C888DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DEC859221E9D8FF00C888DE /* PinValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinValue.swift; sourceTree = "<group>"; };
+		5DEC859421E9D9B900C888DE /* MyAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAnnotation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				5DEC858721E9D66600C888DE /* Assets.xcassets */,
 				5DEC858921E9D66600C888DE /* LaunchScreen.storyboard */,
 				5DEC858C21E9D66600C888DE /* Info.plist */,
+				5DEC859221E9D8FF00C888DE /* PinValue.swift */,
+				5DEC859421E9D9B900C888DE /* MyAnnotation.swift */,
 			);
 			path = MapPinImage;
 			sourceTree = "<group>";
@@ -137,6 +143,8 @@
 			files = (
 				5DEC858321E9D66500C888DE /* ViewController.swift in Sources */,
 				5DEC858121E9D66500C888DE /* AppDelegate.swift in Sources */,
+				5DEC859521E9D9B900C888DE /* MyAnnotation.swift in Sources */,
+				5DEC859321E9D8FF00C888DE /* PinValue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
